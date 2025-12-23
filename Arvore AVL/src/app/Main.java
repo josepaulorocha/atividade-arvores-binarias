@@ -2,6 +2,13 @@ package app;
 
 import structures.AVLTree;
 
+/**
+ * Aluno: José Paulo de Sá Rocha
+ * Matrícula: 202404940040
+ *
+ * Aluno: Rodrigo Fernandes Braga
+ * Matrícula: 202404940014
+ */
 public class Main {
     public static void main(String[] args) {
         AVLTree tree = new AVLTree();
