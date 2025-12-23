@@ -94,7 +94,7 @@ public class RedBlackTree {
                         z = z.parent;
                         rightRotate(z);
                     }
-                    // caso 3 simétrico
+                   
                     z.parent.color = Color.BLACK;
                     z.parent.parent.color = Color.RED;
                     leftRotate(z.parent.parent);
